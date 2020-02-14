@@ -1,0 +1,211 @@
+@font-face {
+  font-family: HelveticaNeueLTStd-ThCn;
+  src: url(HelveticaNeueLTStd-ThCn.otf);
+}
+
+h2, h3, input, textarea {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body {
+	background-color: rgba(25, 38, 61, 1);
+	background-size: cover;
+	background-image: url('bg.png');
+	background-repeat: no-repeat;
+	color: white;
+	margin: 0
+}
+
+.row {
+	max-width: 770px;
+	margin: 0 auto;
+}
+
+/* Contact module */
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 100px;
+}
+
+/* Call-us text section */
+
+.call-us h2 {
+	font-family: "HelveticaNeueLTStd-ThCn";
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #ff6633;
+}
+
+.call-us {
+	text-align: center;
+	font-size: 18px;
+}
+
+/* Address text section */
+
+.address {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+/* Social icons section */
+
+.social {
+	margin-top: 25px;
+}
+
+.icons-box {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+}
+
+.fa {
+  padding: 13px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+/* Send message section */
+
+.send-message-box{
+	text-align: center;
+}
+
+.send-message-box h3 {
+	font-family: "HelveticaNeueLTStd-ThCn";
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #ff6633;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.message-text {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 14px;
+}
+
+/* Form section */
+
+.form-place {
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+	margin-bottom:5px; 
+}
+
+.form-place form {
+	margin-right: 30px;
+}
+
+.form-place form input {
+	display: block;
+	width: 340px;
+	margin-bottom: 15px;
+	border-radius: 3px;
+	padding: 15px;
+}
+
+.form-place form input:last-child {
+	margin-bottom: 0;
+}
+
+.form-place textarea {
+	width: 340px;
+	height: 135px;
+	padding: 15px;
+	border-radius: 3px;
+}
+
+/* Button section */
+
+.button-place {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.button {
+	background-color: #62bcb3;
+	padding: 11.5px;
+	width: 147px;
+	text-align: center;
+	border-radius: 3px;
+	margin: 0 auto;
+}
+
+.button span {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+/* Border line section */
+
+.border {
+	background-image: url('border.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 881px;
+	height: 2px;
+	margin-top: 115px;
+}
+
+/* Copyright text section */
+
+.copyright {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	margin-top: 30px;
+}
+
+/* arrow section */
+
+.arrow {
+	background-image: url('arrow.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 15px;
+	height: 20px;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
